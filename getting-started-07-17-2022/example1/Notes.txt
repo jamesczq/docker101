@@ -1,0 +1,13 @@
+Dockerfile is a manifest/blue for building Images
+
+An image is a template for instantiating a Container
+
+docker -v 
+
+docker build -t my-python-imdb . 
+# it's easy to forget the "." above, which means to write the Image to 
+# the current dir in the docker container
+
+docker run -i -t my-python-imdb 
+# -i: interactive
+# -t: open up a pseudo terminal
